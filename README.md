@@ -94,7 +94,7 @@ To run this project locally, follow these steps:
 3. **Start the server**:
    Run the following command to start the Express server:
    ```bash
-   
+   npm start
    ```
 
 4. **Access the application**:
