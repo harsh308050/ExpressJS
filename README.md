@@ -22,7 +22,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/harsh308050/ExpressJS.git
-   cd your-repo-name
+   cd ExpressJS
    ```
 
 2. **Install dependencies**:
@@ -57,10 +57,6 @@ To run this project locally, follow these steps:
   npm start
   ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 
 # Express.js Form Handling
@@ -86,7 +82,7 @@ To run this project locally, follow these steps:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/harsh308050/ExpressJS.git
-   cd your-repo-name
+   cd ExpressJS
    ```
 
 2. **Install dependencies**:
