@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #3897f0;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        button:hover {
+            background-color: #007bbf;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <form action="/users" method="post">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
